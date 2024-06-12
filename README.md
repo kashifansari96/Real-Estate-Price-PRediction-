@@ -4,4 +4,4 @@ This  project walks through step by step process of how to build a real estate p
 2. Numpy and Pandas for data cleaning
 3. Matplotlib for data visualization
 4. Sklearn for model building
-5. Jupyter notebook, visual studio code
+5. Jupyter notebook, visual studio code as IDE
