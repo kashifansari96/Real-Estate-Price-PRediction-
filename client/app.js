@@ -59,4 +59,4 @@ function getBathValue() {
     });
   }
   
-  window.onload = onPageLoad;
+window.onload = onPageLoad;
