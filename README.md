@@ -17,8 +17,10 @@ By leveraging these methodologies and tools, the project effectively showcases h
 Website Deployment
 Building on the predictive model, I later developed a website to make the real estate price prediction model accessible to users online. The website is deployed with:
 
-Backend Server: Hosted on Render.com
-Frontend: Deployed on Netlify
+- Backend Server: Hosted on Render.com
+- Frontend: Deployed on Netlify
+Website link :- https://homepricepredictionmodel.netlify.app/
+
 To ensure seamless interaction between the frontend and backend, I introduced an API that facilitates data communication and model predictions. This integration allows users to input real estate features and receive price predictions directly through the website, making the model's functionality easily accessible and user-friendly.
 
 
