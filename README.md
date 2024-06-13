@@ -15,7 +15,7 @@ This project not only highlights the practical application of essential data sci
 
 By leveraging these methodologies and tools, the project effectively showcases how data science can be utilized to derive actionable insights and predictive power in real-world scenarios such as real estate price prediction.
 
-<h4>Website Deployment</h4>
+<h3>Website Deployment</h3>
 Building on the predictive model, I later developed a website to make the real estate price prediction model accessible to users online. The website is deployed with:
 
 - Backend Server: Hosted on Render.com
