@@ -1,4 +1,4 @@
-<h2>Real Estate Price Prediction Website</h2>
+<h1>Real Estate Price Prediction Website</h1>
 
 This project walks through a step-by-step process of how to build a real estate price prediction model, covering almost all data science concepts such as data loading and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, grid search CV for hyperparameter tuning, k-fold cross-validation, etc. Technology and tools wise, this project covers:
 
@@ -14,7 +14,7 @@ This project not only highlights the practical application of essential data sci
 
 By leveraging these methodologies and tools, the project effectively showcases how data science can be utilized to derive actionable insights and predictive power in real-world scenarios such as real estate price prediction.
 
-<h3>Website Deployment</h3>
+<h2>Website Deployment</h2>
 Building on the predictive model, I later developed a website to make the real estate price prediction model accessible to users online. The website is deployed with:
 
 - Backend Server: Hosted on Render.com
