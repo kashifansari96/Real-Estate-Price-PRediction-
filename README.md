@@ -1,6 +1,5 @@
 <h2>Real Estate Price Prediction Website</h2>
 
-
 This project walks through a step-by-step process of how to build a real estate price prediction model, covering almost all data science concepts such as data loading and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, grid search CV for hyperparameter tuning, k-fold cross-validation, etc. Technology and tools wise, this project covers:
 
 1. Python
