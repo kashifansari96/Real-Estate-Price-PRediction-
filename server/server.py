@@ -4,6 +4,10 @@ import util
 
 app = Flask(__name__)
 
+@app.route('/health', methods=['GET'])
+def health():
+    return "Server is up and running!"
+
 @app.route('/get_location_names', methods=['GET'])
 def get_location_names():
     response = jsonify({
