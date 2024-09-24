@@ -61,6 +61,8 @@ if st.button("Estimate Price"):
     
     if price < 0:
         st.error("No such property exists, please try higher values.")
+    if price < 5 and price > 0:
+        st.error(f"The estimated price for the home is ₹5.00 Lakhs")        
     else:
         st.success(f"The estimated price for the home is ₹{price:.2f} Lakhs") 
 
