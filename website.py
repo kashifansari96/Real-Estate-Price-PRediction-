@@ -55,9 +55,14 @@ bath = st.number_input("Number of Bathrooms", min_value=1, max_value=10, value=2
 bhk = st.number_input("Number of BHK", min_value=1, max_value=10, value=2)
 
 # Estimate Price button
+# Estimate Price button
 if st.button("Estimate Price"):
     price = predict_price(location, sqft, bath, bhk)
-    st.success(f"The estimated price for the home is ₹{price:.2f} Lakhs")
+    
+    if price < 0:
+        st.error("No such property exists, please try higher values.")
+    else:
+        st.success(f"The estimated price for the home is ₹{price:.2f} Lakhs") 
 
 
 st.header(f"Price to Square-Feet Plot ")
