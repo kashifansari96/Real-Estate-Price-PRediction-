@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import json
 import numpy as np
-import plotly.express as px
+
 import pandas as pd
 
 # Load the model and column information
@@ -60,12 +60,3 @@ if st.button("Estimate Price"):
     st.success(f"The estimated price for the home is ₹{price:.2f} Lakhs")
 
 
-st.header(f"Price to Square-Feet Plot ")
-df_plot = create_plot_data(location, bath, bhk)
-
-# Create a plotly scatter plot for linear regression
-fig = px.line(df_plot, x='Square Feet', y='Predicted Price (Lakhs)',
-                labels={'Square Feet': 'Square Feet', 'Predicted Price (Lakhs)': 'Price (Lakhs)'})
-
-# Display the plot
-st.plotly_chart(fig)
