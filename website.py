@@ -50,7 +50,7 @@ st.header("Input the Property Details")
 
 # Input fields inside the first tab
 location = st.selectbox("Select Location", data_columns[3:])  # Assuming first 3 columns are sqft, bath, bhk
-sqft = st.number_input("Total Square Feet", min_value=500)
+sqft = st.number_input("Total Square Feet", min_value=1000)
 bath = st.number_input("Number of Bathrooms", min_value=1, max_value=10, value=2)
 bhk = st.number_input("Number of BHK", min_value=1, max_value=10, value=2)
 
@@ -65,7 +65,8 @@ df_plot = create_plot_data(location, bath, bhk)
 
 # Create a plotly scatter plot for linear regression
 fig = px.line(df_plot, x='Square Feet', y='Predicted Price (Lakhs)',
-                labels={'Square Feet': 'Square Feet', 'Predicted Price (Lakhs)': 'Price (Lakhs)'})
+              labels={'Square Feet': 'Square Feet', 'Predicted Price (Lakhs)': 'Price (Lakhs)'},
+              range_y=[5, df_plot['Predicted Price (Lakhs)'].max()])  # Set minimum y-axis value to 5 Lakhs
 
 # Display the plot
 st.plotly_chart(fig)
