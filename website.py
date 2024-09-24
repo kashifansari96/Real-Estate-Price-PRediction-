@@ -50,7 +50,7 @@ st.header("Input the Property Details")
 
 # Input fields inside the first tab
 location = st.selectbox("Select Location", data_columns[3:])  # Assuming first 3 columns are sqft, bath, bhk
-sqft = st.number_input("Total Square Feet", min_value=500)
+sqft = st.number_input("Total Square Feet", min_value=500,  step=100)
 bath = st.number_input("Number of Bathrooms", min_value=1, max_value=10, value=2)
 bhk = st.number_input("Number of BHK", min_value=1, max_value=10, value=2)
 
