@@ -29,10 +29,7 @@ After evaluating several regression models, including Lasso and Decision Tree Re
 ## Website Deployment
 To make the real estate price prediction model accessible to users, I developed and deployed a website using **Streamlit**. The website allows users to input real estate features and get instant price predictions. 
 
-### Deployment Details:
-- **Backend Server**: Integrated using Streamlit
-- **Frontend**: Developed and deployed using Streamlit
-- **Website Link**: [Real Estate Price Prediction](https://your-streamlit-app-link)
+**Website Link**: [Real Estate Price Prediction]([https://your-streamlit-app-link](https://realestatepriceprediction.streamlit.app/))
 
 The website features an API for seamless interaction between the frontend and backend, enabling user inputs to be processed and price predictions to be displayed in real-time.
 
